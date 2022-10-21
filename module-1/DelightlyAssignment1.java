@@ -29,7 +29,7 @@ public class DelightlyAssignment1 {
 
             // creates date format to add to file
             Date date = new Date();
-            SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
+            SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
             String dateStr = formatter.format(date);
             output.println("\nToday's date is:\n" + dateStr);
 
